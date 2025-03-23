@@ -1,5 +1,3 @@
-import styles from "@/app/page.module.scss";
-import stylesGlobal from "@/app/page.module.scss";
 import React from "react";
 import {HeroBanner} from "@/app/components/HeroBanner/HeroBanner";
 import {Cards} from "@/app/components/Cards/Cards";
