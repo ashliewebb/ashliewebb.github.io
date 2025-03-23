@@ -1,13 +1,19 @@
-:root {
+body {
   --background: #ffffff;
-  --foreground: #171717;
-}
+  --background-alt: #f0f0f0;
+  --background-paper: #FEC3EB;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-white: #ffffff;
+  --color-primary: #64983E;
+  --color-secondary: #FFB031;
+  --color-highlight: #C23092;
+  --color-tertiary: #FFE1F5;
+
+  --border-primary: #222;
+  --border-primary-weight: 5px;
+  --border-divider: var(--border-primary-weight) solid var(--border-primary);
+
+  --font-family-heading: var(--font-courier-prime);
 }
 
 html,
@@ -17,11 +23,12 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--foreground-color);
+  background: #e4e4e4;
+  font-family: var(--font-outfit);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 
 * {
@@ -39,4 +46,17 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.grid {
+  display: grid;
+  gap: 2em;
+}
+
+.grid-col-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-col-3 {
+  grid-template-columns: 1fr 1fr 1fr;
 }
