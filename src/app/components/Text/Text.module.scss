@@ -13,12 +13,16 @@
 }
 
 .text h2 {
-    font-size: 38px;
+    font-size: 32px;
     margin-bottom: 32px;
     font-family: var(--font-family-heading);
 
     &:not(:first-child) {
         margin-top: 32px;
+    }
+
+    @media screen and (min-width: 769px) {
+        font-size: 38px;
     }
 }
 

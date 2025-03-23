@@ -29,6 +29,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    margin: 0 auto;
+  }
 }
 
 * {
@@ -53,10 +60,14 @@ a {
   gap: 2em;
 }
 
-.grid-col-2 {
-  grid-template-columns: 1fr 1fr;
+@media screen and (min-width: 769px) {
+  .grid-col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-.grid-col-3 {
-  grid-template-columns: 1fr 1fr 1fr;
+@media screen and (min-width: 769px) {
+  .grid-col-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
