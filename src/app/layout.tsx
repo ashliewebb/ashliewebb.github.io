@@ -53,7 +53,7 @@ export default function RootLayout({
                 <Link href="/portfolio" className={styles.navigationLink}>Portfolio</Link>
               </li>
               <li>
-                <Link href="/contact" className={styles.buttonPrimary}>Hire Me</Link>
+                <Link href="/contact" className={styles.buttonPrimary}>Get In Touch</Link>
               </li>
             </ul>
           </header>

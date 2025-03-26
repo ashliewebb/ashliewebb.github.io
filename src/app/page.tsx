@@ -13,7 +13,7 @@ export default function Home() {
               title="Bridging the gap between design & code"
               description="A great product isn’t just about how it looks—it’s about how it works, and Ashlie brings both perspectives to the table"
               ctaLink="/contact"
-              ctaLabel="Hire Me"
+              ctaLabel="Get In Touch"
               bg_image={true}
           ></HeroBanner>
           <Cards heading="Does this sound familar?" grid={2}>
