@@ -8,7 +8,7 @@ import {Text} from "@/app/components/Text/Text";
 export default function Portfolio() {
     return (
         <>
-            <HeroBanner title={`Creating seamless user experiences through design & code`} description={`Ashlie cares deeply about the full user journey—from intuitive interfaces to clean, maintainable code. Her portfolio includes projects where she’s contributed as a frontend developer, a UX/UI designer, or both, always with a focus on clarity, usability, and thoughtful execution.`}></HeroBanner>
+            <HeroBanner title={`Creating seamless user experiences through design & code`} description={`Ashlie cares deeply about the full user journey—from intuitive interfaces to clean, maintainable code. Her portfolio includes projects where she’s contributed as a frontend developer, a UX/UI designer, or both, always with a focus on clarity, usability, and thoughtful execution.`} ctaLink="/AshlieWebb_UXPortfolio.pdf" ctaLabel={`Ashlie's UX Portfolio (PDF)`} ctaTarget={`_blank`}></HeroBanner>
 
             <Cards grid={2}>
                 <Card title={`Birdsnest`} description={`Women's fashion store with a strong online presence and award-winning customer service`} subtext={`frontend, feature contribution, bigcommerce, 2022-2024`} link={`www.birdsnest.com.au`}></Card>
