@@ -1,25 +1,48 @@
 import React from 'react';
-import stylesGlobal from '@/app/page.module.scss';
-import styles from './Cards.module.scss';
+import Link from "next/link";
 
 type CardsProps = {
     heading?: string;
     copy?: string;
-    bg_alt?: string;
+    bgAlt?: boolean;
     grid?: number;
+    headerCenter?: boolean;
+    cardStyle?: string;
+    ctaLink?: string;
+    ctaLabel?: string;
+    ctaStyle?: string;
+    ctaTarget?: string;
     children: React.ReactNode;
 }
 
-export const Cards = ({heading, copy, bg_alt, grid, children}: CardsProps) => {
+export const Cards = ({heading, copy, bgAlt, grid, headerCenter, cardStyle, ctaLink, ctaLabel, ctaStyle, ctaTarget, children}: CardsProps) => {
     const gridClass = `grid grid-col-${grid}`;
 
+    const cardsStyle = (cardStyle === 'roundedCard'
+        ? 'cardsRounded'
+        : cardStyle === 'squareCard'
+            ? 'cardsSquared'
+            : "")
+
+    const ctaLinkStyle = (ctaStyle === 'cardCTAButton'
+        ? `buttonPrimary`
+        : ctaStyle === 'cardCTAText'
+            ? `buttonText`
+            : "")
+
+
     return (
-        <div className={`${styles.cards} ${stylesGlobal.decoBorderBottom} ${bg_alt ? stylesGlobal.sectionBgHighlight : ''}`}>
-            {heading && <h2 className={`${stylesGlobal.heading} ${stylesGlobal.heading2}`}>{heading}</h2>}
-            <div className={gridClass}>
+        <div className={`section ${bgAlt ? 'sectionBgAlt' : ''}`}>
+            <div className={`sectionHeader ${headerCenter && 'headerCenter'}`}>
+                {heading && <h2 className='heading heading2'>{heading}</h2>}
                 {copy && <p>{copy}</p>}
+            </div>
+            <div className={`${cardsStyle} ${gridClass}`}>
                 {children}
             </div>
+            {ctaLink && (<div className={`cardCTA ${ctaStyle}`}>
+                <Link className={ctaLinkStyle} href={ctaLink} target={ctaTarget}>{ctaLabel}</Link>
+            </div>)}
         </div>
     )
 }

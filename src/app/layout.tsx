@@ -1,24 +1,14 @@
 import type { Metadata } from "next";
-import { Courier_Prime, Outfit } from "next/font/google";
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
+import {ImageText} from "./components/ImageText/ImageText";
 import "./globals.css";
 import styles from "./page.module.scss";
+import React from "react";
 
-const courierPrime = Courier_Prime({
-  variable: "--font-courier-prime",
-  weight: ['400', '700'],
-  subsets: ["latin"],
-});
-
-const outfit = Outfit({
-  variable: "--font-outfit",
-  weight: ['400', '700'],
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
-  title: "Ashlie Webb | Frontend Developer & UX Designer",
+  title: "Ashlie Webb | Product Designer • UX & UI",
   description: "",
   icons: {
     icon: '/favicon.svg',
@@ -32,42 +22,63 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} ${courierPrime.variable}`}>
-        <div className={styles.page}>
-          <div className={styles.strapline}>
-            <p>Crafting meaningful online experiences since 2009</p>
-          </div>
-          <header className={styles.header}>
-            <Link href="/">
-              <Image
-                className={styles.logo}
-                src="/logo.svg"
-                alt="Ashlie Webb Designs"
-                width={146}
-                height={80}
-                priority
-              />
-            </Link>
-            <ul className={styles.navigation}>
-              <li>
-                <Link href="/skills" className={styles.navigationLink}>Skills</Link>
-              </li>
-              <li>
-                <Link href="/portfolio" className={styles.navigationLink}>Portfolio</Link>
-              </li>
-              <li>
-                <Link href="/contact" className={styles.buttonPrimary}>Get In Touch</Link>
-              </li>
-            </ul>
-          </header>
-          <main className={styles.main}>
-            {children}
-          </main>
-          <footer className={styles.footer}>
-            <p>&copy; Ashlie Webb 2025</p>
-          </footer>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      <link
+          href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,0,0&display=block" />
+    </head>
+    <body>
+    <div className={styles.page}>
+      <header className={styles.header}>
+        <Link href="/" className={styles.headerLogo}>
+          <Image
+              className={styles.logo}
+              src="/logo.svg"
+              alt="Ashlie Webb Designs"
+              width={146}
+              height={80}
+              priority
+          />
+        </Link>
+        <nav className={styles.navigation}>
+          <ul>
+            <li>
+              <Link href="/portfolio" className={styles.navigationLink}>Portfolio</Link>
+            </li>
+            <li>
+              <Link href="/skills" className={styles.navigationLink}>Skills</Link>
+            </li>
+            <li>
+              <Link href="/about" className={styles.navigationLink}>About</Link>
+            </li>
+            {/*<li>*/}
+            {/*  <Link href="/contact" className={styles.navigationLink}>Work With Me</Link>*/}
+            {/*</li>*/}
+          </ul>
+        </nav>
+        <Link href="/contact" className="buttonPrimary">Work With Me</Link>
+
+        {/*<Link href="/" className="buttonPrimary">Explore Templates & Tools</Link>*/}
+      </header>
+
+      <main className={styles.main}>
+        {children}
+      </main>
+
+      <footer className={`${styles.footer}`}>
+        <ImageText
+            image="/profile-photo.jpg"
+            imageAlt="Ashlie Webb | Product Designer • UX & UI • Designs Systems"
+            copy="<h2 class='heading heading2'>About Ashlie</h2><p>Product designer with a background in UX, UI, and front-end development. Designs with empathy, builds with clarity, and focuses on what works—for users, and for the teams behind the scenes.</p><p><a href='/about' class='buttonText'>More about Ashlie</a>">
+        </ImageText>
+        <div className="section">
+          <p>&copy; Ashlie Webb 2025</p>
         </div>
-      </body>
+      </footer>
+    </div>
+    </body>
     </html>
   );
 }

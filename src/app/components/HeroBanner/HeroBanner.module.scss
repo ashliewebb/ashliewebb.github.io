@@ -1,40 +1,40 @@
-.heroBanner {
-    width: 100%;
-    padding: 24px 16px;
-
-    @media screen and (min-width: 769px) {
-        padding: 48px;
-    }
-}
-
-.heroBannerContent {
-    max-width: 700px;
-    display: flex;
-    flex-direction: column;
-    gap: 44px;
-    align-items: flex-start;
-    margin-top: 50px;
-    margin-bottom: 30px;
-
-    @media screen and (min-width: 769px) {
-        margin-top: 90px;
-        margin-bottom: 80px;
-        gap: 52px;
-    }
-}
-
-.heroBanner p {
-    margin-bottom: 24px;
-    font-size: 20px;
-    line-height: 1.5;
-
-    @media screen and (min-width: 769px) {
-        font-size: 24px;
-    }
-}
-
-.heroBannerBgImage {
-    background: url('/puzzle-pieces.png') bottom center no-repeat;
-    background-size: contain;
-    padding-bottom: 160px;
-}
+//.heroBanner {
+//    width: 100%;
+//    padding: 24px 16px;
+//
+//    @media screen and (min-width: 769px) {
+//        padding: 48px;
+//    }
+//}
+//
+//.heroBannerContent {
+//    max-width: 700px;
+//    display: flex;
+//    flex-direction: column;
+//    gap: 44px;
+//    align-items: flex-start;
+//    margin-top: 50px;
+//    margin-bottom: 30px;
+//
+//    @media screen and (min-width: 769px) {
+//        margin-top: 90px;
+//        margin-bottom: 80px;
+//        gap: 52px;
+//    }
+//}
+//
+//.heroBanner p {
+//    margin-bottom: 24px;
+//    font-size: 20px;
+//    line-height: 1.5;
+//
+//    @media screen and (min-width: 769px) {
+//        font-size: 24px;
+//    }
+//}
+//
+//.heroBannerBgImage {
+//    background: url('/puzzle-pieces.png') bottom center no-repeat;
+//    background-size: contain;
+//    padding-bottom: 160px;
+//}

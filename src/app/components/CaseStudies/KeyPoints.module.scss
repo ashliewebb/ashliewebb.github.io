@@ -1,0 +1,29 @@
+.highlights {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em;
+  margin: 0;
+}
+
+.highlightItem {
+  display: flex;
+  gap: 0.5em;
+
+  strong {
+    font-size: var(--font-size-13);
+    color: var(--color-text-grey);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  p {
+    font-size: var(--font-size-16);
+    margin-bottom: 0;
+    line-height: 1.5;
+  }
+}
+
+.highlightItemIcon {
+  font-size: 60px !important;
+  opacity: 0.75;
+}
