@@ -1,6 +1,5 @@
 import {HeroBanner} from "@/app/components/HeroBanner/HeroBanner";
 import React from "react";
-import {Text} from "@/app/components/Text/Text";
 import {Card} from "@/app/components/Cards/Card";
 import {Cards} from "@/app/components/Cards/Cards";
 import {Metadata} from "next";

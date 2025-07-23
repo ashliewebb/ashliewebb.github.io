@@ -2,7 +2,6 @@ import React from "react";
 import {HeroBanner} from "@/app/components/HeroBanner/HeroBanner";
 import {Cards} from "@/app/components/Cards/Cards";
 import {Card} from "@/app/components/Cards/Card";
-import {Text} from "@/app/components/Text/Text";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {

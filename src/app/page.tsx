@@ -1,7 +1,6 @@
 import {HeroBanner} from "@/app/components/HeroBanner/HeroBanner";
 import {Cards} from "@/app/components/Cards/Cards";
 import {Card} from "@/app/components/Cards/Card";
-import {ImageText} from "@/app/components/ImageText/ImageText";
 import React from "react";
 
 export default function Home() {

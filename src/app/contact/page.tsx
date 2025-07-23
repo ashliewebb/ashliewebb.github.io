@@ -1,6 +1,5 @@
 import {HeroBanner} from "@/app/components/HeroBanner/HeroBanner";
 import React from "react";
-import {Text} from "@/app/components/Text/Text";
 
 export default function Contact() {
     return (
