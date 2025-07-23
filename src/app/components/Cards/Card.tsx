@@ -10,7 +10,7 @@ type CardProps = {
     imageWidth?: number;
     imageHeight?: number;
     title: string;
-    description: string;
+    description?: string;
     subtitle?: string;
     link?: string;
     linkText?: string;

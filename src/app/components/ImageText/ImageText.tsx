@@ -16,7 +16,6 @@ export const ImageText = ({image, imageAlt, copy, imageDirection, imageRounded, 
             <div className={`sectionInner ${styles.imageText} ${styles.imageTextImage + imageDirection}`}>
                 <img className={`${styles.imageTextImage__img} ${imageRounded ? styles.imageTextImageRounded : ''}`} src={image} alt={imageAlt || ''} />
                 <div className={styles.imageTextCopy} dangerouslySetInnerHTML={{ __html: copy }}></div>
-
             </div>
         </div>
     )
