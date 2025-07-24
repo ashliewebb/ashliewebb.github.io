@@ -57,11 +57,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
   margin: 0;
-  border-left: 12px solid var(--background-primary);
+  border-top: 12px solid var(--background-primary);
 }
 
 @media screen and (min-width: 769px) {
   body {
+    border-top: none;
     border-left: 48px solid var(--background-primary);
   }
 }
@@ -187,6 +188,16 @@ strong {
 
 .sectionContent {
   max-width: 860px;
+  flex: 2;
+}
+
+.sectionImage {
+  flex: 1;
+  margin: 60px 0 0;
+
+  @media screen and (min-width: 769px) {
+    margin: 32px;
+  }
 }
 
 .headerCenter {
@@ -392,6 +403,11 @@ strong {
   }
 }
 
+.heroImage img {
+  width: 100%;
+  height: auto;
+}
+
 .sectionHasImage {
   display: flex;
   flex-direction: column;
@@ -402,8 +418,4 @@ strong {
     flex-direction: row;
     gap: 2.5em;
   }
-}
-
-.sectionImage {
-  margin: 32px;
 }
