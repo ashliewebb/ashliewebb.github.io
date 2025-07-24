@@ -73,9 +73,36 @@ export default function RootLayout({
             imageAlt="Ashlie Webb | Product Designer • UX & UI • Designs Systems"
             copy="<h2 class='heading heading2'>About Ashlie</h2><p>Product designer with a background in UX, UI, and front-end development. Designs with empathy, builds with clarity, and focuses on what works—for users, and for the teams behind the scenes.</p><p><a href='/about' class='buttonText'>More about Ashlie</a>">
         </ImageText>
-        <div className="section">
-          <p>&copy; Ashlie Webb 2025</p>
+        <div className={styles.footerContent}>
+          <Link href="/contact" className="buttonPrimary">Work With Me</Link>
+          <nav className={styles.footerMenu}>
+            <ul>
+              <li>
+                <Link href="/portfolio" className={styles.footerLink}>Portfolio</Link>
+              </li>
+              <li>
+                <Link href="/skills" className={styles.footerLink}>Skills</Link>
+              </li>
+              <li>
+                <Link href="/about" className={styles.footerLink}>About</Link>
+              </li>
+              {/*<li>*/}
+              {/*  <Link href="/contact" className={styles.footerLink}>Work With Me</Link>*/}
+              {/*</li>*/}
+            </ul>
+          </nav>
+          <Link href="/" className={styles.footerLogo}>
+            <Image
+                className={styles.logo}
+                src="/logo.svg"
+                alt="Ashlie Webb Designs"
+                width={110}
+                height={80}
+                priority
+            />
+          </Link>
         </div>
+        <p className={styles.footerCopyright}>&copy; Ashlie Webb 2025</p>
       </footer>
     </div>
     </body>

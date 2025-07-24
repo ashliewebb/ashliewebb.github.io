@@ -1,9 +1,10 @@
+import React from "react";
 import { Metadata } from 'next';
+
 import {HeroBanner} from "@/app/components/HeroBanner/HeroBanner";
 import {KeyPoints} from "@/app/components/CaseStudies/KeyPoints"
 import {Cards} from "@/app/components/Cards/Cards";
 import {Card} from "@/app/components/Cards/Card";
-import React from "react";
 
 export const metadata: Metadata = {
     title: 'Birdsnest UX-led Site Redesign Case Study | Ashlie Webb',
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
 };
 
 export default function BirdsnestCaseStudy() {
+
     return (
         <main className="case-study">
             <HeroBanner

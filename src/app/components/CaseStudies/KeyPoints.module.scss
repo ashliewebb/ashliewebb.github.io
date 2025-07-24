@@ -1,13 +1,22 @@
 .highlights {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5em;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
   margin: 0;
+
+  @media screen and (min-width: 769px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+  }
 }
 
 .highlightItem {
   display: flex;
-  gap: 0.5em;
+  gap: 1em;
+
+  @media screen and (min-width: 769px) {
+    gap: 0.5em;
+  }
 
   strong {
     font-size: var(--font-size-13);
