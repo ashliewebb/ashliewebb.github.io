@@ -16,6 +16,10 @@ export default function Portfolio() {
                 introtext="Product Designer • UX & UI • Design Systems"
                 title={`Creating seamless user experiences through design & code`}
                 description={`<p>Ashlie cares deeply about the full user journey—from intuitive interfaces to clean, maintainable code. Her portfolio includes projects where she’s contributed as a frontend developer, a UX/UI designer, or both, always with a focus on clarity, usability, and thoughtful execution.</p>`}
+                imageUrl="/illustration-website-design-layout.svg"
+                imageAlt="Designer building a website"
+                imageWidth={400}
+                imageHeight={400}
                 ctaLink="/AshlieWebb_UXPortfolio.pdf"
                 ctaLabel={`Ashlie's UX Portfolio (PDF)`}
                 ctaTarget={`_blank`}>

@@ -22,7 +22,7 @@ cottage</span></a></li>
                     <li>Case Study</li>
                     </ul>"
                 description="<p>Bringing together design, development, and operations to create a thoughtful, feel-good brand experience</p>"
-                imageUrl="/cow-and-coconut-logo.png"
+                imageUrl="/case-studies/cow-and-coconut-logo.png"
                 imageAlt="Cow & Coconut"
                 imageWidth={200}
                 imageHeight={74}

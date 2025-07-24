@@ -10,10 +10,14 @@ export default function Home() {
               introtext="Product Designer • UX & UI • Design Systems"
               title="Human-first digital products designed with intention"
               description="<p>From research and wireframes to polished interfaces, Ashlie Webb brings a calm, methodical approach to digital product design. Her background spans UX, UI, and front-end development—shaping user experiences that are clear, human, and ready to scale.</p><p>With 15+ years in e-commerce, digital platforms, and independent business, she designs with both empathy and practicality. The focus is always the same: useful products that feel good to use—and simple for teams to maintain.</p>"
+              imageUrl="/illustration-website-design.svg"
+              imageAlt="What is a designer illustration"
+              imageWidth={400}
+              imageHeight={400}
               ctaLink="/portfolio"
               ctaLabel="View selected work"
-              ctaLink2="/templates"
-              ctaLabel2="Explore Templates & Tools"
+              // ctaLink2="/templates"
+              // ctaLabel2="Explore Templates & Tools"
           ></HeroBanner>
           <Cards
               heading="Focus areas"
@@ -45,7 +49,7 @@ export default function Home() {
               grid={2}
               cardStyle="squareCard"
               bgAlt={false}
-              ctaLink="/focus"
+              ctaLink="/portfolio"
               ctaLabel="View full portfolio"
               ctaStyle="cardCTAButton"
           >
@@ -62,26 +66,26 @@ export default function Home() {
                   description="Craft clean, accessible interfaces that support clarity and consistency."
               ></Card>
           </Cards>
-          <Cards
-              heading="Templates & Tools for entrepreneurs"
-              copy="Digital templates and UI kits designed to save time, reduce friction, and keep the focus on what matters."
-              grid={2}
-              headerCenter={true}
-              cardStyle="squareCard"
-              bgAlt={true}
-              ctaLink="/templates"
-              ctaLabel="View templates"
-              ctaStyle="cardCTAButton"
-          >
-              <Card
-                  title="UX Strategy & Research"
-                  description="Understand users and define product direction through research, journey mapping, and insights."
-              ></Card>
-              <Card
-                  title="Design Thinking"
-                  description="Solves problems through empathy, iteration, and practical, user-first ideas."
-              ></Card>
-          </Cards>
+          {/*<Cards*/}
+          {/*    heading="Templates & Tools for entrepreneurs"*/}
+          {/*    copy="Digital templates and UI kits designed to save time, reduce friction, and keep the focus on what matters."*/}
+          {/*    grid={2}*/}
+          {/*    headerCenter={true}*/}
+          {/*    cardStyle="squareCard"*/}
+          {/*    bgAlt={true}*/}
+          {/*    ctaLink="/templates"*/}
+          {/*    ctaLabel="View templates"*/}
+          {/*    ctaStyle="cardCTAButton"*/}
+          {/*>*/}
+          {/*    <Card*/}
+          {/*        title="UX Strategy & Research"*/}
+          {/*        description="Understand users and define product direction through research, journey mapping, and insights."*/}
+          {/*    ></Card>*/}
+          {/*    <Card*/}
+          {/*        title="Design Thinking"*/}
+          {/*        description="Solves problems through empathy, iteration, and practical, user-first ideas."*/}
+          {/*    ></Card>*/}
+          {/*</Cards>*/}
       </>
   )
 }

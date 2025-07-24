@@ -24,7 +24,7 @@ cottage</span></a></li>
                     <li>Case Study</li>
                     </ul>"
                 description="<p>Driving measurable results through UX-led improvements across key shopping journeys.</p>"
-                imageUrl="/birdsnest-logo.png"
+                imageUrl="/case-studies/birdsnest-logo.png"
                 imageAlt="Birdsnest"
                 imageWidth={200}
                 imageHeight={37}

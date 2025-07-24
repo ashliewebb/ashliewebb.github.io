@@ -21,7 +21,7 @@ type HeroBannerProps = {
 
 export const HeroBanner = ({breadcrumb, introtext, title, description, ctaLink, ctaLabel, ctaTarget, ctaLink2, ctaLabel2, ctaTarget2, imageUrl, imageAlt, imageWidth, imageHeight}: HeroBannerProps) => {
     return (
-        <div className={`section ${imageUrl && 'sectionHasImage'}`}>
+        <div className={`section${imageUrl ? ' sectionHasImage' : ''}`}>
             <div className='sectionContent'>
                 {breadcrumb && <strong className='breadcrumb' dangerouslySetInnerHTML={{ __html: breadcrumb }} />}
                 {introtext && <strong className='introtext' dangerouslySetInnerHTML={{ __html: introtext }} />}

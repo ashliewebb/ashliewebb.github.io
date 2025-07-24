@@ -23,7 +23,7 @@ cottage</span></a></li>
                     <li>Case Study</li>
                     </ul>"
                 description="<p>Building a flexible, scalable component system to support client success across industries.</p>"
-                imageUrl="/symphony3-logo.png"
+                imageUrl="/case-studies/symphony3-logo.png"
                 imageAlt="Symphony3"
                 imageWidth={200}
                 imageHeight={33}

@@ -23,7 +23,7 @@ cottage</span></a></li>
                     <li>Case Study</li>
                     </ul>"
                 description="<p>Enhancing user experience, storytelling, and community engagement through thoughtful design and development.</p>"
-                imageUrl="/symphony3-logo.png"
+                imageUrl="/case-studies/symphony3-logo.png"
                 imageAlt="Symphony3"
                 imageWidth={200}
                 imageHeight={33}

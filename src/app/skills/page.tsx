@@ -14,7 +14,12 @@ export default function Skills() {
         <>
             <HeroBanner
                 introtext="Product Designer • UX & UI • Design Systems"
-                title="A practical mix of product thinking, design systems, and user-first strategy">
+                title="A practical mix of product thinking, design systems, and user-first strategy"
+                imageUrl="/illustration-website-content.svg"
+                imageAlt="Web Designer designing layout"
+                imageWidth={400}
+                imageHeight={400}
+            >
             </HeroBanner>
             <Cards
                 grid={3}
