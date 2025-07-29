@@ -6,6 +6,7 @@ import Image from "next/image";
 type CardProps = {
     icon?: string;
     image?: string;
+    imageSquare?: string;
     imageAlt?: string;
     imageWidth?: number;
     imageHeight?: number;
@@ -18,32 +19,39 @@ type CardProps = {
     linkTarget?: string;
 }
 
-export const Card = ({icon, image, imageAlt, imageWidth, imageHeight, title, description, link, linkText, linkTitle, linkTarget, subtitle}: CardProps) => {
+export const Card = ({icon, image, imageSquare, imageAlt, imageWidth, imageHeight, title, description, link, linkText, linkTitle, linkTarget, subtitle}: CardProps) => {
     return (
         <div className='card'>
             {link ? (
                 <Link href={link} title={linkTitle} target={linkTarget}>
                     {image && (
-                        <Image className='card__image' src={image} alt={imageAlt || ''} width={imageWidth} height={imageHeight}></Image>
+                        <picture>
+                            <source srcSet={imageSquare} media={`(max-width: 650px)`} />
+                            <Image className='card__image' src={image} alt={imageAlt || ''} width={imageWidth} height={imageHeight}></Image>
+                        </picture>
                     )}
                     {icon && (
                         <span className={`material-symbols-outlined ${styles.cardIcon}`}>{icon}</span>
                     )}
-                    {subtitle && <strong className='introtext'>{subtitle}</strong>}
                     <h3>{title}</h3>
+                    {subtitle && <strong className='introtext'>{subtitle}</strong>}
                     {description && <div className='card__desc' dangerouslySetInnerHTML={{ __html: description }}></div>}
                     {linkText && <p className="buttonText">{linkText}</p>}
                 </Link>
             ) : (
                 <>
                     {image && (
-                        <Image className='card__image' src={image} alt={imageAlt || ''} width={imageWidth} height={imageHeight}></Image>
+                        <picture>
+                            <source srcSet={imageSquare} media={`(max-width: 650px)`} />
+                            <Image className='card__image' src={image} alt={imageAlt || ''} width={imageWidth} height={imageHeight}></Image>
+                        </picture>
                     )}
                     {icon && (
                         <span className='material-symbols-outlined card-icon'>{icon}</span>
                     )}
                     <h3>{title}</h3>
-                    {description && <p>{description}</p>}
+                    {subtitle && <strong className='introtext'>{subtitle}</strong>}
+                    {description && <div className='card__desc' dangerouslySetInnerHTML={{ __html: description }}></div>}
                 </>
             )}
         </div>

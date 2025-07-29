@@ -20,9 +20,10 @@ export default function Portfolio() {
                 imageAlt="Designer building a website"
                 imageWidth={400}
                 imageHeight={400}
-                ctaLink="/AshlieWebb_UXPortfolio.pdf"
-                ctaLabel={`Ashlie's UX Portfolio (PDF)`}
-                ctaTarget={`_blank`}>
+                // ctaLink="/AshlieWebb_UXPortfolio.pdf"
+                // ctaLabel={`Ashlie's UX Portfolio (PDF)`}
+                // ctaTarget={`_blank`}
+            >
             </HeroBanner>
             <Cards
                 heading="Case studies"
@@ -36,39 +37,43 @@ export default function Portfolio() {
                     link="/case-studies/cow-and-coconut"
                     linkTitle="View Cow & Coconut case study"
                     image="/case-studies/candc-mobile-website-mockup.jpg"
+                    imageSquare="/case-studies/candc-mobile-website-mockup-square.jpg"
                     imageAlt="Cow & Coconut mobile website"
-                    imageWidth={506}
-                    imageHeight={337}
+                    imageWidth={800}
+                    imageHeight={450}
                 ></Card>
                 <Card
                     title="Symphony3: Shaping a Website That Supports Service and Strategy"
                     subtitle="UX Strategy • UI Design • Frontend Dev"
                     link="/case-studies/symphony3-website-redesign"
                     linkTitle="View Symphony3 case study"
-                    image="/case-studies/candc-mobile-website-mockup.jpg"
-                    imageAlt="Cow & Coconut mobile website"
-                    imageWidth={506}
-                    imageHeight={337}
+                    image="/case-studies/symphony3-redesign-website-mockup.jpg"
+                    imageSquare="/case-studies/symphony3-redesign-website-mockup-square.jpg"
+                    imageAlt="Symphony3 Website Redesign on laptop"
+                    imageWidth={800}
+                    imageHeight={450}
                 ></Card>
                 <Card
-                    title="Symphony3"
+                    title="Symphony3: Enabling Faster Builds Through a White Label Design System"
                     subtitle="UX Strategy • UI Design • Frontend Dev"
                     link="/case-studies/symphony3-white-label"
                     linkTitle="View Symphony3 case study"
-                    image="/case-studies/candc-mobile-website-mockup.jpg"
+                    image="/case-studies/symphony3-white-label-website-mockup.jpg"
+                    imageSquare="/case-studies/symphony3-white-label-website-mockup-square.jpg"
                     imageAlt="Cow & Coconut mobile website"
-                    imageWidth={506}
-                    imageHeight={337}
+                    imageWidth={800}
+                    imageHeight={450}
                 ></Card>
                 <Card
                     title="Birdsnest: UX-Led Site Redesign & Optimisation"
                     subtitle="UX Research & Strategy • UI Design • Wireframing & Prototyping"
                     link="/case-studies/birdsnest-site-redesign"
                     linkTitle="View birdsnest case study"
-                    image="/case-studies/candc-mobile-website-mockup.jpg"
-                    imageAlt="Cow & Coconut mobile website"
-                    imageWidth={506}
-                    imageHeight={337}
+                    image="/case-studies/birdsnest-redesign-website-mockup.jpg"
+                    imageSquare="/case-studies/birdsnest-redesign-website-mockup-square.jpg"
+                    imageAlt="Birdsnest website redesign"
+                    imageWidth={800}
+                    imageHeight={450}
                 ></Card>
                 <Card
                     title="Birdsnest: Crafting a Seamless Navigation Experience"
@@ -76,8 +81,8 @@ export default function Portfolio() {
                     link="/case-studies/birdsnest-mobile-first-navigation"
                     image="/case-studies/candc-mobile-website-mockup.jpg"
                     imageAlt="Cow & Coconut mobile website"
-                    imageWidth={506}
-                    imageHeight={337}
+                    imageWidth={800}
+                    imageHeight={450}
                 ></Card>
                 <Card
                     title="Birdsnest: Improving Returns to Support a Customer‑First Approach"
@@ -86,8 +91,8 @@ export default function Portfolio() {
                     linkTitle="View birdsnest case study"
                     image="/case-studies/candc-mobile-website-mockup.jpg"
                     imageAlt="Cow & Coconut mobile website"
-                    imageWidth={506}
-                    imageHeight={337}
+                    imageWidth={800}
+                    imageHeight={450}
                 ></Card>
             </Cards>
 

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import {HeroBanner} from "@/app/components/HeroBanner/HeroBanner";
-import {KeyPoints} from "@/app/components/CaseStudies/KeyPoints"
+import {KeyPoints} from "@/app/components/CaseStudies/KeyPoints";
+import {Image} from "@/app/components/Image/Image";
 import React from "react";
 import {Card} from "@/app/components/Cards/Card";
 import {Cards} from "@/app/components/Cards/Cards";
@@ -23,7 +24,7 @@ cottage</span></a></li>
                     <li>Case Study</li>
                     </ul>"
                 description="<p>Enhancing user experience, storytelling, and community engagement through thoughtful design and development.</p>"
-                imageUrl="/case-studies/symphony3-logo.png"
+                imageUrl="/case-studies/mockup-laptop-mobile-symphony3-redesign.png"
                 imageAlt="Symphony3"
                 imageWidth={200}
                 imageHeight={33}
@@ -86,8 +87,15 @@ cottage</span></a></li>
                 <p>
                     The new site needed to tell the company’s story more clearly, provide flexibility for internal content creators, and encourage stronger community engagement through articles, webinars, and case studies.
                 </p>
-
             </section>
+
+            <Image
+                image="/case-studies/symphony3-redesign-website-mockup.jpg"
+                imageSquare="/case-studies/symphony3-redesign-website-mockup-mobile.jpg"
+                imageAlt=""
+                caption="Caption here"
+            >
+            </Image>
 
             <section className="section case-study-problem">
                 <h2 className="heading heading2">The challenge</h2>

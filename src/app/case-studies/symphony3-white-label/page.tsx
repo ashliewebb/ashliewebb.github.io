@@ -4,6 +4,7 @@ import {KeyPoints} from "@/app/components/CaseStudies/KeyPoints"
 import React from "react";
 import {Card} from "@/app/components/Cards/Card";
 import {Cards} from "@/app/components/Cards/Cards";
+import {Image} from "@/app/components/Image/Image";
 
 
 export const metadata: Metadata = {
@@ -23,7 +24,7 @@ cottage</span></a></li>
                     <li>Case Study</li>
                     </ul>"
                 description="<p>Building a flexible, scalable component system to support client success across industries.</p>"
-                imageUrl="/case-studies/symphony3-logo.png"
+                imageUrl="/case-studies/mockup-laptop-symphony3-whitelabel-redesign.png"
                 imageAlt="Symphony3"
                 imageWidth={200}
                 imageHeight={33}
@@ -87,6 +88,14 @@ cottage</span></a></li>
                     The goal was to provide a foundation that could scale across projects—supporting varied content structures while maintaining a cohesive experience for both end users and admin teams.
                 </p>
             </section>
+
+            <Image
+                image="/case-studies/symphony3-white-label-website-mockup.jpg"
+                imageSquare="/case-studies/symphony3-white-label-website-mockup-mobile.jpg"
+                imageAlt=""
+                caption="Caption here"
+            >
+            </Image>
 
             <section className="section case-study-problem">
                 <h2 className="heading heading2">The challenge</h2>

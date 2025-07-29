@@ -4,6 +4,7 @@ import {Card} from "@/app/components/Cards/Card";
 import {Cards} from "@/app/components/Cards/Cards";
 import React from "react";
 import {KeyPoints} from "@/app/components/CaseStudies/KeyPoints";
+import {Image} from "@/app/components/Image/Image";
 
 export const metadata: Metadata = {
     title: 'Cow & Coconut: Building a Brand with Purpose | Ashlie Webb Designs',
@@ -21,11 +22,12 @@ cottage</span></a></li>
                     <li><a href='/portfolio'>Portfolio</a></li>
                     <li>Case Study</li>
                     </ul>"
-                description="<p>Bringing together design, development, and operations to create a thoughtful, feel-good brand experience</p>"
-                imageUrl="/case-studies/cow-and-coconut-logo.png"
+                description="<p>Bringing together design, development, and operations to create a thoughtful, feel-good brand experience.</p>"
+                // imageUrl="/case-studies/cow-and-coconut-logo.png"
+                imageUrl="/case-studies/mockup-laptop-mobile-cow-and-coconut.png"
                 imageAlt="Cow & Coconut"
-                imageWidth={200}
-                imageHeight={74}
+                imageWidth={400}
+                imageHeight={400}
             >
 
             </HeroBanner>
@@ -45,9 +47,10 @@ cottage</span></a></li>
                 cardStyle="roundedCard"
                 bgAlt={false}
                 headerCenter={true}
-                ctaLink="https://www.cowandcococnut.com.au"
+                ctaLink="https://www.cowandcoconut.com.au"
                 ctaLabel="View Cow & Coconut website"
                 ctaStyle="cardCTAButton"
+                ctaTarget="_blank"
             >
                 <Card
                     title="Purpose-driven brand identity"
@@ -81,6 +84,14 @@ cottage</span></a></li>
                 <p>As the founder, I took on every aspect of building Cow & Coconut from the ground up: brand identity, website design and development, product curation, marketing, and day-to-day operations. Without the luxury of a large team or budget, I relied on a mix of UX and design best practices, personal insight, and a clear sense of the values I wanted the brand to represent.</p>
                 <p>This project brought together my skills in UX, frontend development, e-commerce strategy, and content design—woven together by purpose.</p>
             </section>
+
+            <Image
+                image="/case-studies/candc-mobile-website-mockup.jpg"
+                imageSquare="/case-studies/candc-mobile-website-mockup-square.jpg"
+                imageAlt=""
+                caption="Caption here"
+            >
+            </Image>
 
             <section className="section case-study-problem">
                 <h2 className="heading heading2">The challenge</h2>
