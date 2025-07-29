@@ -12,6 +12,7 @@ type CardProps = {
     imageHeight?: number;
     title: string;
     description?: string;
+    descriptionHTML?: string;
     subtitle?: string;
     link?: string;
     linkText?: string;
@@ -19,11 +20,11 @@ type CardProps = {
     linkTarget?: string;
 }
 
-export const Card = ({icon, image, imageSquare, imageAlt, imageWidth, imageHeight, title, description, link, linkText, linkTitle, linkTarget, subtitle}: CardProps) => {
+export const Card = ({icon, image, imageSquare, imageAlt, imageWidth, imageHeight, title, description, descriptionHTML, link, linkText, linkTitle, linkTarget, subtitle}: CardProps) => {
     return (
         <div className='card'>
             {link ? (
-                <Link href={link} title={linkTitle} target={linkTarget}>
+                <Link href={link} title={linkTitle} target={linkTarget} className={linkTarget ? 'cardLinkBlank' : ''}>
                     {image && (
                         <picture>
                             <source srcSet={imageSquare} media={`(max-width: 650px)`} />
@@ -35,7 +36,8 @@ export const Card = ({icon, image, imageSquare, imageAlt, imageWidth, imageHeigh
                     )}
                     <h3>{title}</h3>
                     {subtitle && <strong className='introtext'>{subtitle}</strong>}
-                    {description && <div className='card__desc' dangerouslySetInnerHTML={{ __html: description }}></div>}
+                    {description && <p className='card__desc'>{description}</p> }
+                    {descriptionHTML && <div className='card__desc' dangerouslySetInnerHTML={{ __html: descriptionHTML }}></div>}
                     {linkText && <p className="buttonText">{linkText}</p>}
                 </Link>
             ) : (
@@ -51,7 +53,8 @@ export const Card = ({icon, image, imageSquare, imageAlt, imageWidth, imageHeigh
                     )}
                     <h3>{title}</h3>
                     {subtitle && <strong className='introtext'>{subtitle}</strong>}
-                    {description && <div className='card__desc' dangerouslySetInnerHTML={{ __html: description }}></div>}
+                    {description && <p className='card__desc'>{description}</p> }
+                    {descriptionHTML && <div className='card__desc' dangerouslySetInnerHTML={{ __html: descriptionHTML }}></div>}
                 </>
             )}
         </div>

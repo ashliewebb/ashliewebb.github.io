@@ -33,7 +33,7 @@ export default function Skills() {
                 ></Card>
                 <Card
                     title="Design Thinking"
-                    description="Solveing problems through empathy, iteration, and practical, user-first ideas."
+                    description="Solving problems through empathy, iteration, and practical, user-first ideas."
                     icon="cognition_2"
                 ></Card>
                 <Card

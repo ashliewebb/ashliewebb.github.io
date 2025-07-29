@@ -156,7 +156,7 @@ cottage</span></a></li>
             >
                 <Card
                     title="Golden Plains Shire Council"
-                    description="<ul>
+                    descriptionHTML="<ul>
                     <li>Local government site focused on service accessibility for residents and community engagement</li>
                     <li>Applied the design system to deliver clear navigation and easy-to-update content sections for council services</li>
                     <li>Completed 2022</li>
@@ -169,7 +169,7 @@ cottage</span></a></li>
                 </Card>
                 <Card
                     title="Geofabrics"
-                    description="<ul>
+                    descriptionHTML="<ul>
                     <li>Industrial product catalogue and resource hub for geosynthetic solutions</li>
                     <li>Supported flexible product detail layouts, downloadable resources, and structured information flow</li>
                     <li>Completed 2021</li>
@@ -182,7 +182,7 @@ cottage</span></a></li>
                 </Card>
                 <Card
                     title="IMCRC Futuremap Portal"
-                    description="<ul>
+                    descriptionHTML="<ul>
                     <li>Interactive portal offering self-assessment tools and digital readiness resources</li>
                     <li>Frontend development and theme implementation using the White Label system</li>
                     <li>Completed 2021</li>
@@ -195,7 +195,7 @@ cottage</span></a></li>
                 </Card>
                 <Card
                     title="Paintback"
-                    description="<ul>
+                    descriptionHTML="<ul>
                     <li>Website for Paintback, an Australian not-for-profit dedicated to responsible paint recycling and waste management</li>
                     <li>Applied the component system to support structured storytelling, accessible service information, and program education</li>
                     <li>Completed 2020</li>

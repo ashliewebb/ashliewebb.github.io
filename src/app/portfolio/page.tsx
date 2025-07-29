@@ -103,43 +103,65 @@ export default function Portfolio() {
                 bgAlt={false}
             >
                 <Card
-                    title="Cow & Coconut"
-                    description="Building a Brand with Purpose"
+                    title="Cow & Coconut: Connection through content"
+                    subtitle="Lead magnet design • Editorial layout • 2024"
+                    description="A gentle lead generator designed with purpose—blending mindful content and warm visual storytelling."
+                    image="/portfolio/candc-winter-guide.jpg"
+                    imageAlt="Cow & Coconut: Winter Eco Living Guide"
+                    imageWidth={800}
+                    imageHeight={450}
+                    link="https://cdn.shopify.com/s/files/1/0645/4588/2344/files/GUIDE_Winter_2025_v3.pdf?v=1750327077"
+                    linkTitle="View the Winter Eco Living Guide at Cow & Coconut"
+                    linkText="View the Winter Eco Living Guide"
+                    linkTarget="_blank"
                 ></Card>
                 <Card
-                    title="Symphony3"
-                    description="Website Redesign"
-                    link="/case-studies/symphony3-website-redesign"
-                    linkText="View case study"
-                    linkTitle="View Symphony3 case study"
+                    title="Golden Plains: Simplifying Services for a Regional Council"
+                    subtitle="Frontend • Drupal website build • 2021"
+                    description="Local council website to connect multiple systems and improve UX for users."
+                    image="/portfolio/puddelduck-crossing-logo.jpg"
+                    imageAlt="Golden Plains Shire Council website"
+                    imageWidth={800}
+                    imageHeight={450}
+                    link="https://www.goldenplains.vic.gov.au"
+                    linkTitle="View Golden Plains Shire Council website"
+                    linkText="View Golden Plains Shire Council website"
+                    linkTarget="_blank"
                 ></Card>
                 <Card
-                    title="Symphony3"
-                    description="White Label Drupal Platform"
-                    link="/case-studies/symphony3-white-label"
-                    linkText="View case study"
-                    linkTitle="View Symphony3 case study"
+                    title="Geofabrics: Engineering a Better Experience"
+                    subtitle="Frontend • Drupal website build • 2021"
+                    description="Manufacturing industry website showcasing services and materials, as well as professional education."
+                    image="/portfolio/puddelduck-crossing-logo.jpg"
+                    imageAlt="Geofabrics: Engineering a Better Experience"
+                    imageWidth={800}
+                    imageHeight={450}
+                    link="https://www.geofabrics.co"
+                    linkTitle="View Geofabrics website"
+                    linkText="View Geofabrics website"
+                    linkTarget="_blank"
                 ></Card>
                 <Card
-                    title="Birdsnest"
-                    description="UX-Led Site Redesign & Optimisation"
-                    link="/case-studies/birdsnest-site-redesign"
-                    linkText="View case study"
-                    linkTitle="View birdsnest case study"
+                    title="Paintback: Giving Paint a Second Life"
+                    subtitle="Frontend • Drupal website build • 2020"
+                    description="Charity website providing paint recycling services, as well as education and awareness."
+                    image="/portfolio/puddelduck-crossing-logo.jpg"
+                    imageAlt="Paintback: Giving Paint a Second Life"
+                    imageWidth={800}
+                    imageHeight={450}
+                    link="https://www.paintback.com.au"
+                    linkTitle="View Paintback website"
+                    linkText="View Paintback website"
+                    linkTarget="_blank"
                 ></Card>
                 <Card
-                    title="Birdsnest"
-                    description="Mobile-First Navigation Redesign"
-                    link="/case-studies/birdsnest-mobile-first-navigation"
-                    linkText="View case study"
-                    linkTitle="View birdsnest case study"
-                ></Card>
-                <Card
-                    title="Birdsnest"
-                    description="Online Return Process"
-                    link="/case-studies/birdsnest-online-return-process"
-                    linkText="View case study"
-                    linkTitle="View birdsnest case study"
+                    title="Puddleduck Crossing: A Playful Brand for Crochet Toys"
+                    subtitle="Logo Design • Brand identity • 2020"
+                    description="A cosy, handcrafted logo for a small business bringing joy through crochet toys and keepsakes."
+                    image="/portfolio/puddelduck-crossing-logo.jpg"
+                    imageAlt="Puddleduck Crossing Logo Design"
+                    imageWidth={800}
+                    imageHeight={450}
                 ></Card>
             </Cards>
 

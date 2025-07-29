@@ -276,7 +276,8 @@ strong {
   }
 }
 
-[class*="button"][target="_blank"] {
+[class*="button"][target="_blank"],
+.cardLinkBlank[target="_blank"] .buttonText {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -317,10 +318,13 @@ strong {
   color: var(--color-highlight-active);
 }
 
-.buttonText:after {
-  content: '>';
-  margin-left: 5px;
+.buttonText {
+  &:after {
+    content: '>';
+    margin-left: 5px;
+  }
 }
+
 .cardCTA {
   display: flex;
   margin-top: 24px;
@@ -398,7 +402,7 @@ strong {
 
   .cardsSquared & {
     margin-bottom: 4px;
-    order: 1;
+    /*order: 1;*/
     font-size: var(--font-size-19);
     line-height: 1.5;
   }
