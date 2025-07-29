@@ -54,16 +54,26 @@ export default function Home() {
               ctaStyle="cardCTAButton"
           >
               <Card
-                  title="UX Strategy & Research"
-                  description="Understand users and define product direction through research, journey mapping, and insights."
+                  title="Cow & Coconut: Building a Brand with Purpose"
+                  subtitle="Brand Identity • UX & UI Design • Marketing"
+                  link="/case-studies/cow-and-coconut"
+                  linkTitle="View Cow & Coconut case study"
+                  image="/case-studies/candc-mobile-website-mockup.jpg"
+                  imageSquare="/case-studies/candc-mobile-website-mockup-square.jpg"
+                  imageAlt="Cow & Coconut mobile website"
+                  imageWidth={800}
+                  imageHeight={450}
               ></Card>
               <Card
-                  title="Design Thinking"
-                  description="Solves problems through empathy, iteration, and practical, user-first ideas."
-              ></Card>
-              <Card
-                  title="Interface & Visual Design"
-                  description="Craft clean, accessible interfaces that support clarity and consistency."
+                  title="Birdsnest: UX-Led Site Redesign & Optimisation"
+                  subtitle="UX Research & Strategy • UI Design • Wireframing & Prototyping"
+                  link="/case-studies/birdsnest-site-redesign"
+                  linkTitle="View birdsnest case study"
+                  image="/case-studies/birdsnest-redesign-website-mockup.jpg"
+                  imageSquare="/case-studies/birdsnest-redesign-website-mockup-square.jpg"
+                  imageAlt="Birdsnest website redesign"
+                  imageWidth={800}
+                  imageHeight={450}
               ></Card>
           </Cards>
           {/*<Cards*/}
