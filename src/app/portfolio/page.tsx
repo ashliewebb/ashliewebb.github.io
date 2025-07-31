@@ -36,9 +36,9 @@ export default function Portfolio() {
                     subtitle="Brand Identity • UX & UI Design • Marketing"
                     link="/case-studies/cow-and-coconut"
                     linkTitle="View Cow & Coconut case study"
-                    image="/case-studies/candc-mobile-website-mockup.jpg"
-                    imageSquare="/case-studies/candc-mobile-website-mockup-square.jpg"
-                    imageAlt="Cow & Coconut mobile website"
+                    image="/case-studies/cow-and-coconut/candc-mobile-website-mockup.jpg"
+                    imageSquare="/case-studies/cow-and-coconut/candc-mobile-website-mockup-square.jpg"
+                    imageAlt="Cow & Coconut: Building a Brand with Purpose"
                     imageWidth={800}
                     imageHeight={450}
                 ></Card>
@@ -47,9 +47,9 @@ export default function Portfolio() {
                     subtitle="UX Strategy • UI Design • Frontend Dev"
                     link="/case-studies/symphony3-website-redesign"
                     linkTitle="View Symphony3 case study"
-                    image="/case-studies/symphony3-redesign-website-mockup.jpg"
-                    imageSquare="/case-studies/symphony3-redesign-website-mockup-square.jpg"
-                    imageAlt="Symphony3 Website Redesign on laptop"
+                    image="/case-studies/symphony3/symphony3-redesign-website-mockup.jpg"
+                    imageSquare="/case-studies/symphony3/symphony3-redesign-website-mockup-square.jpg"
+                    imageAlt="Symphony3: Shaping a Website That Supports Service and Strategy"
                     imageWidth={800}
                     imageHeight={450}
                 ></Card>
@@ -58,8 +58,8 @@ export default function Portfolio() {
                     subtitle="UX Strategy • UI Design • Frontend Dev"
                     link="/case-studies/symphony3-white-label"
                     linkTitle="View Symphony3 case study"
-                    image="/case-studies/symphony3-white-label-website-mockup.jpg"
-                    imageSquare="/case-studies/symphony3-white-label-website-mockup-square.jpg"
+                    image="/case-studies/symphony3/symphony3-white-label-website-mockup.jpg"
+                    imageSquare="/case-studies/symphony3/symphony3-white-label-website-mockup-square.jpg"
                     imageAlt="Symphony3: Enabling Faster Builds Through a White Label Design System"
                     imageWidth={800}
                     imageHeight={450}
@@ -69,9 +69,9 @@ export default function Portfolio() {
                     subtitle="UX Research & Strategy • UI Design • Wireframing & Prototyping"
                     link="/case-studies/birdsnest-site-redesign"
                     linkTitle="View birdsnest case study"
-                    image="/case-studies/birdsnest-redesign-website-mockup.jpg"
-                    imageSquare="/case-studies/birdsnest-redesign-website-mockup-square.jpg"
-                    imageAlt="Birdsnest website redesign"
+                    image="/case-studies/birdsnest/birdsnest-redesign-website-mockup.jpg"
+                    imageSquare="/case-studies/birdsnest/birdsnest-redesign-website-mockup-square.jpg"
+                    imageAlt="Birdsnest: UX-Led Site Redesign & Optimisation"
                     imageWidth={800}
                     imageHeight={450}
                 ></Card>
@@ -79,8 +79,9 @@ export default function Portfolio() {
                     title="Birdsnest: Crafting a Seamless Navigation Experience"
                     subtitle="UX Research • Wireframing & Prototyping • Accessiblity Design"
                     link="/case-studies/birdsnest-mobile-first-navigation"
-                    image="/case-studies/candc-mobile-website-mockup.jpg"
-                    imageAlt="Cow & Coconut mobile website"
+                    image="/case-studies/birdsnest/birdsnest-mobile-navigation-mockup.jpg"
+                    imageSquare="/case-studies/birdsnest/birdsnest-mobile-navigation-mockup-square.jpg"
+                    imageAlt="Birdsnest: Crafting a Seamless Navigation Experience"
                     imageWidth={800}
                     imageHeight={450}
                 ></Card>
@@ -89,8 +90,9 @@ export default function Portfolio() {
                     subtitle="UX Research • UX & UI Design • Journey Optimisation"
                     link="/case-studies/birdsnest-online-return-process"
                     linkTitle="View birdsnest case study"
-                    image="/case-studies/candc-mobile-website-mockup.jpg"
-                    imageAlt="Cow & Coconut mobile website"
+                    image="/case-studies/birdsnest/birdsnest-returns-process-mockup.jpg"
+                    imageSquare="/case-studies/birdsnest/birdsnest-returns-process-mockup-square.jpg"
+                    imageAlt="Birdsnest: Improving Returns to Support a Customer‑First Approach"
                     imageWidth={800}
                     imageHeight={450}
                 ></Card>
@@ -106,7 +108,7 @@ export default function Portfolio() {
                     title="Cow & Coconut: Connection through content"
                     subtitle="Lead magnet design • Editorial layout • 2024"
                     description="A gentle lead generator designed with purpose—blending mindful content and warm visual storytelling."
-                    image="/case-studies/candc-mobile-website-mockup.jpg"
+                    image="/case-studies/cow-and-coconut/candc-mobile-website-mockup.jpg"
                     imageAlt="Cow & Coconut: Winter Eco Living Guide"
                     imageWidth={800}
                     imageHeight={450}
@@ -119,7 +121,7 @@ export default function Portfolio() {
                     title="Golden Plains: Simplifying Services for a Regional Council"
                     subtitle="Frontend • Drupal website build • 2021"
                     description="Local council website to connect multiple systems and improve UX for users."
-                    image="/case-studies/candc-mobile-website-mockup.jpg"
+                    image="/case-studies/cow-and-coconut/candc-mobile-website-mockup.jpg"
                     imageAlt="Golden Plains Shire Council website"
                     imageWidth={800}
                     imageHeight={450}
@@ -132,7 +134,7 @@ export default function Portfolio() {
                     title="Geofabrics: Engineering a Better Experience"
                     subtitle="Frontend • Drupal website build • 2021"
                     description="Manufacturing industry website showcasing services and materials, as well as professional education."
-                    image="/case-studies/candc-mobile-website-mockup.jpg"
+                    image="/case-studies/cow-and-coconut/candc-mobile-website-mockup.jpg"
                     imageAlt="Geofabrics: Engineering a Better Experience"
                     imageWidth={800}
                     imageHeight={450}
@@ -145,8 +147,8 @@ export default function Portfolio() {
                     title="Paintback: Giving Paint a Second Life"
                     subtitle="Frontend • Drupal website build • 2020"
                     description="Charity website providing paint recycling services, as well as education and awareness."
-                    image="/case-studies/symphony3-white-label-website-mockup.jpg"
-                    imageSquare="/case-studies/symphony3-white-label-website-mockup-square.jpg"
+                    image="/case-studies/symphony3/symphony3-white-label-website-mockup.jpg"
+                    imageSquare="/case-studies/symphony3/symphony3-white-label-website-mockup-square.jpg"
                     imageAlt="Paintback: Giving Paint a Second Life"
                     imageWidth={800}
                     imageHeight={450}
@@ -159,7 +161,18 @@ export default function Portfolio() {
                     title="Puddleduck Crossing: A Playful Brand for Crochet Toys"
                     subtitle="Logo Design • Brand identity • 2020"
                     description="A cosy, handcrafted logo for a small business bringing joy through crochet toys and keepsakes."
-                    image="/case-studies/candc-mobile-website-mockup.jpg"
+                    image="/case-studies/puddleduck-crossing/puddleduck-crossing-logo.jpg"
+                    imageSquare="/case-studies/puddleduck-crossing/puddleduck-crossing-logo-square.jpg"
+                    imageAlt="Puddleduck Crossing Logo Design"
+                    imageWidth={800}
+                    imageHeight={450}
+                ></Card>
+                <Card
+                    title="Digital Snow: Branding for a Boutique Ecomm Agency"
+                    subtitle="Logo Design • Brand identity • 2019"
+                    description="A refined brandmark developed for a small agency focused on digital strategy and online retail."
+                    image="/case-studies/digital-snow/digital-snow-logo-mockup.jpg"
+                    imageSquare="/case-studies/digital-snow/digital-snow-logo-mockup-square.jpg"
                     imageAlt="Puddleduck Crossing Logo Design"
                     imageWidth={800}
                     imageHeight={450}

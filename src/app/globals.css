@@ -278,16 +278,16 @@ strong {
 
 [class*="button"][target="_blank"],
 .cardLinkBlank[target="_blank"] .buttonText {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-
   &:after {
     content: '\e89e';
     font-family: var(--font-family-icons);
-    top: 1px;
+    top: 3px;
     position: relative;
   }
+}
+
+.cardLinkBlank .buttonText {
+  margin-top: 24px;
 }
 
 .buttonPrimary {
