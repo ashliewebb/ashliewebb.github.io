@@ -108,7 +108,8 @@ export default function Portfolio() {
                     title="Cow & Coconut: Connection through content"
                     subtitle="Lead magnet design • Editorial layout • 2024"
                     description="A gentle lead generator designed with purpose—blending mindful content and warm visual storytelling."
-                    image="/case-studies/cow-and-coconut/candc-mobile-website-mockup.jpg"
+                    image="/case-studies/cow-and-coconut/candc-winter-eco-guide-mockup.jpg"
+                    imageSquare="/case-studies/cow-and-coconut/candc-winter-eco-guide-mockup-square.jpg"
                     imageAlt="Cow & Coconut: Winter Eco Living Guide"
                     imageWidth={800}
                     imageHeight={450}
@@ -121,7 +122,8 @@ export default function Portfolio() {
                     title="Golden Plains: Simplifying Services for a Regional Council"
                     subtitle="Frontend • Drupal website build • 2021"
                     description="Local council website to connect multiple systems and improve UX for users."
-                    image="/case-studies/cow-and-coconut/candc-mobile-website-mockup.jpg"
+                    image="/case-studies/symphony3/golden-plains-website-mockup.jpg"
+                    imageSquare="/case-studies/symphony3/golden-plains-website-mockup-square.jpg"
                     imageAlt="Golden Plains Shire Council website"
                     imageWidth={800}
                     imageHeight={450}
@@ -134,7 +136,8 @@ export default function Portfolio() {
                     title="Geofabrics: Engineering a Better Experience"
                     subtitle="Frontend • Drupal website build • 2021"
                     description="Manufacturing industry website showcasing services and materials, as well as professional education."
-                    image="/case-studies/cow-and-coconut/candc-mobile-website-mockup.jpg"
+                    image="/case-studies/symphony3/geofabrics-website-mockup.jpg"
+                    imageSquare="/case-studies/symphony3/geofabrics-website-mockup-square.jpg"
                     imageAlt="Geofabrics: Engineering a Better Experience"
                     imageWidth={800}
                     imageHeight={450}

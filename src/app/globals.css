@@ -283,6 +283,7 @@ strong {
     font-family: var(--font-family-icons);
     top: 3px;
     position: relative;
+    margin-left: 5px;
   }
 }
 

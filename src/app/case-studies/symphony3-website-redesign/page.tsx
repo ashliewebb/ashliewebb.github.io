@@ -89,13 +89,13 @@ cottage</span></a></li>
                 </p>
             </section>
 
-            <Image
-                image="/case-studies/symphony3-redesign-website-mockup.jpg"
-                imageSquare="/case-studies/symphony3-redesign-website-mockup-mobile.jpg"
-                imageAlt=""
-                caption="Caption here"
-            >
-            </Image>
+            {/*<Image*/}
+            {/*    image="/case-studies/symphony3/symphony3-redesign-website-mockup.jpg"*/}
+            {/*    imageSquare="/case-studies/symphony3/symphony3-redesign-website-mockup-square.jpg"*/}
+            {/*    imageAlt=""*/}
+            {/*    caption="Caption here"*/}
+            {/*>*/}
+            {/*</Image>*/}
 
             <section className="section case-study-problem">
                 <h2 className="heading heading2">The challenge</h2>
