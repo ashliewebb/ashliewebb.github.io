@@ -176,7 +176,7 @@ export default function Portfolio() {
                     description="A refined brandmark developed for a small agency focused on digital strategy and online retail."
                     image="/case-studies/digital-snow/digital-snow-logo-mockup.jpg"
                     imageSquare="/case-studies/digital-snow/digital-snow-logo-mockup-square.jpg"
-                    imageAlt="Puddleduck Crossing Logo Design"
+                    imageAlt="Digital Snow Logo Design"
                     imageWidth={800}
                     imageHeight={450}
                 ></Card>

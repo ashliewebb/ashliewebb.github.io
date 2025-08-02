@@ -23,7 +23,11 @@ cottage</span></a></li>
                     <li>Case Study</li>
                     </ul>"
                 description="<p>Redesigning the mobile shopping experience for a fashion-forward, customer-first brand.</p>"
+<<<<<<< HEAD
                 imageUrl="/case-studies/birdsnest/birdsnest-navigation-laptop-mobile-mockup.png"
+=======
+                imageUrl="/case-studies/birdsnest-logo.png"
+>>>>>>> 3d289ea8769c76c8fd4c8b2c8f9c32cf642f759f
                 imageAlt="Birdsnest"
                 imageWidth={200}
                 imageHeight={37}

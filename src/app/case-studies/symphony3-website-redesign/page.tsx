@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import {HeroBanner} from "@/app/components/HeroBanner/HeroBanner";
 import {KeyPoints} from "@/app/components/CaseStudies/KeyPoints";
-import {Image} from "@/app/components/Image/Image";
 import React from "react";
 import {Card} from "@/app/components/Cards/Card";
 import {Cards} from "@/app/components/Cards/Cards";
