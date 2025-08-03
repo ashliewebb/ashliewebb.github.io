@@ -25,8 +25,8 @@ cottage</span></a></li>
                 description="<p>Redesigning the returns experience to reduce support load and empower customers.</p>"
                 imageUrl="/case-studies/birdsnest/birdsnest-returns-laptop-mobile-mockup.png"
                 imageAlt="Birdsnest"
-                imageWidth={200}
-                imageHeight={37}
+                imageWidth={800}
+                imageHeight={450}
             >
             </HeroBanner>
             <KeyPoints

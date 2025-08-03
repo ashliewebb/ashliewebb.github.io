@@ -25,8 +25,8 @@ cottage</span></a></li>
                 description="<p>Redesigning the mobile shopping experience for a fashion-forward, customer-first brand.</p>"
                 imageUrl="/case-studies/birdsnest/birdsnest-navigation-laptop-mobile-mockup.png"
                 imageAlt="Birdsnest"
-                imageWidth={200}
-                imageHeight={37}
+                imageWidth={800}
+                imageHeight={450}
             >
             </HeroBanner>
             <KeyPoints
