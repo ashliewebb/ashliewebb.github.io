@@ -385,7 +385,7 @@ strong {
   font-family: var(--font-family-heading);
   font-weight: var(--font-heading-weight-semibold);
   line-height: 1.45;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.035em;
 
   .cardsRounded & {
     margin-bottom: 24px;

@@ -35,10 +35,10 @@ export default function RootLayout({
         <Link href="/" className={styles.headerLogo}>
           <Image
               className={styles.logo}
-              src="/logo.svg"
+              src="/aw-logo-leumang.svg"
               alt="Ashlie Webb Designs"
-              width={146}
-              height={80}
+              width={108}
+              height={46}
               priority
           />
         </Link>
@@ -94,10 +94,10 @@ export default function RootLayout({
           <Link href="/" className={styles.footerLogo}>
             <Image
                 className={styles.logo}
-                src="/logo.svg"
+                src="/aw-logo-leumang.svg"
                 alt="Ashlie Webb Designs"
-                width={110}
-                height={80}
+                width={80}
+                height={35}
                 priority
             />
           </Link>
