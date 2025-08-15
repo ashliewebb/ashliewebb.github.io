@@ -4,7 +4,6 @@ import {Card} from "@/app/components/Cards/Card";
 import {Cards} from "@/app/components/Cards/Cards";
 import React from "react";
 import {KeyPoints} from "@/app/components/CaseStudies/KeyPoints";
-import {Image} from "@/app/components/Image/Image";
 
 export const metadata: Metadata = {
     title: 'Cow & Coconut: Building a Brand with Purpose | Ashlie Webb Designs',
