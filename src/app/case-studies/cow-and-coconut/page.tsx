@@ -84,13 +84,13 @@ cottage</span></a></li>
                 <p>This project brought together my skills in UX, frontend development, e-commerce strategy, and content design—woven together by purpose.</p>
             </section>
 
-            <Image
-                image="/case-studies/candc-mobile-website-mockup.jpg"
-                imageSquare="/case-studies/candc-mobile-website-mockup-square.jpg"
-                imageAlt=""
-                caption="Caption here"
-            >
-            </Image>
+            {/*<Image*/}
+            {/*    image="/case-studies/candc-mobile-website-mockup.jpg"*/}
+            {/*    imageSquare="/case-studies/candc-mobile-website-mockup-square.jpg"*/}
+            {/*    imageAlt=""*/}
+            {/*    caption="Caption here"*/}
+            {/*>*/}
+            {/*</Image>*/}
 
             <section className="section case-study-problem">
                 <h2 className="heading heading2">The challenge</h2>

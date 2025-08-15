@@ -14,8 +14,8 @@ export default function Portfolio() {
         <>
             <HeroBanner
                 introtext="Product Designer • UX & UI • Design Systems"
-                title={`Creating seamless user experiences through design & code`}
-                description={`<p>Ashlie cares deeply about the full user journey—from intuitive interfaces to clean, maintainable code. Her portfolio includes projects where she’s contributed as a frontend developer, a UX/UI designer, or both, always with a focus on clarity, usability, and thoughtful execution.</p>`}
+                title={`Designing digital experiences with purpose and clarity`}
+                description={`<p>Ashlie works across the product design process, from early exploration to polished interfaces. Her work brings together insight, usability, and visual precision to create digital experiences that make sense and support the way people actually interact.</p>`}
                 imageUrl="/illustration-website-design-layout.svg"
                 imageAlt="Designer building a website"
                 imageWidth={400}
@@ -26,16 +26,18 @@ export default function Portfolio() {
             >
             </HeroBanner>
             <Cards
-                heading="Case studies"
-                grid={2}
-                cardStyle="squareCard"
+                heading="Case Studies"
+                grid={1}
+                cardStyle="featureCard"
                 bgAlt={false}
             >
                 <Card
-                    title="Cow & Coconut: Building a Brand with Purpose"
+                    title="Building a Brand with Purpose"
+                    brand="Cow & Coconut"
                     subtitle="Brand Identity • UX & UI Design • Marketing"
                     link="/case-studies/cow-and-coconut"
                     linkTitle="View Cow & Coconut case study"
+                    linkText="View case study"
                     image="/case-studies/cow-and-coconut/candc-mobile-website-mockup.jpg"
                     imageSquare="/case-studies/cow-and-coconut/candc-mobile-website-mockup-square.jpg"
                     imageAlt="Cow & Coconut: Building a Brand with Purpose"
@@ -43,10 +45,12 @@ export default function Portfolio() {
                     imageHeight={450}
                 ></Card>
                 <Card
-                    title="Symphony3: Shaping a Website That Supports Service and Strategy"
+                    title="Shaping a Website That Supports Service and Strategy"
+                    brand="Symphony3"
                     subtitle="UX Strategy • UI Design • Frontend Dev"
                     link="/case-studies/symphony3-website-redesign"
                     linkTitle="View Symphony3 case study"
+                    linkText="View case study"
                     image="/case-studies/symphony3/symphony3-redesign-website-mockup.jpg"
                     imageSquare="/case-studies/symphony3/symphony3-redesign-website-mockup-square.jpg"
                     imageAlt="Symphony3: Shaping a Website That Supports Service and Strategy"
@@ -54,10 +58,12 @@ export default function Portfolio() {
                     imageHeight={450}
                 ></Card>
                 <Card
-                    title="Symphony3: Enabling Faster Builds Through a White Label Design System"
+                    title="Enabling Faster Builds Through a White Label Design System"
+                    brand="Symphony3"
                     subtitle="UX Strategy • UI Design • Frontend Dev"
                     link="/case-studies/symphony3-white-label"
                     linkTitle="View Symphony3 case study"
+                    linkText="View case study"
                     image="/case-studies/symphony3/symphony3-white-label-website-mockup.jpg"
                     imageSquare="/case-studies/symphony3/symphony3-white-label-website-mockup-square.jpg"
                     imageAlt="Symphony3: Enabling Faster Builds Through a White Label Design System"
@@ -65,10 +71,12 @@ export default function Portfolio() {
                     imageHeight={450}
                 ></Card>
                 <Card
-                    title="Birdsnest: UX-Led Site Redesign & Optimisation"
+                    title="UX-Led Site Redesign & Optimisation"
+                    brand="Birdsnest"
                     subtitle="UX Research & Strategy • UI Design • Wireframing & Prototyping"
                     link="/case-studies/birdsnest-site-redesign"
                     linkTitle="View birdsnest case study"
+                    linkText="View case study"
                     image="/case-studies/birdsnest/birdsnest-redesign-website-mockup.jpg"
                     imageSquare="/case-studies/birdsnest/birdsnest-redesign-website-mockup-square.jpg"
                     imageAlt="Birdsnest: UX-Led Site Redesign & Optimisation"
@@ -76,9 +84,12 @@ export default function Portfolio() {
                     imageHeight={450}
                 ></Card>
                 <Card
-                    title="Birdsnest: Crafting a Seamless Navigation Experience"
+                    title="Crafting a Seamless Navigation Experience"
+                    brand="Birdsnest"
                     subtitle="UX Research • Wireframing & Prototyping • Accessiblity Design"
                     link="/case-studies/birdsnest-mobile-first-navigation"
+                    linkTitle="View birdsnest case study"
+                    linkText="View case study"
                     image="/case-studies/birdsnest/birdsnest-mobile-navigation-mockup.jpg"
                     imageSquare="/case-studies/birdsnest/birdsnest-mobile-navigation-mockup-square.jpg"
                     imageAlt="Birdsnest: Crafting a Seamless Navigation Experience"
@@ -86,10 +97,12 @@ export default function Portfolio() {
                     imageHeight={450}
                 ></Card>
                 <Card
-                    title="Birdsnest: Improving Returns to Support a Customer‑First Approach"
+                    title="Improving Returns to Support a Customer‑First Approach"
+                    brand="Birdsnest"
                     subtitle="UX Research • UX & UI Design • Journey Optimisation"
                     link="/case-studies/birdsnest-online-return-process"
                     linkTitle="View birdsnest case study"
+                    linkText="View case study"
                     image="/case-studies/birdsnest/birdsnest-returns-process-mockup.jpg"
                     imageSquare="/case-studies/birdsnest/birdsnest-returns-process-mockup-square.jpg"
                     imageAlt="Birdsnest: Improving Returns to Support a Customer‑First Approach"

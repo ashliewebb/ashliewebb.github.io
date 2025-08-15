@@ -22,7 +22,9 @@ export const Cards = ({heading, copy, bgAlt, grid, headerCenter, cardStyle, ctaL
         ? 'cardsRounded'
         : cardStyle === 'squareCard'
             ? 'cardsSquared'
-            : "")
+            : cardStyle === 'featureCard'
+                ? 'cardsFeatured'
+                : '')
 
     const ctaLinkStyle = (ctaStyle === 'cardCTAButton'
         ? `buttonPrimary`
