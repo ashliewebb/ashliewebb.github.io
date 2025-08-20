@@ -45,7 +45,7 @@ export default function Portfolio() {
                     imageHeight={450}
                 ></Card>
                 <Card
-                    title="Shaping a Website That Supports Service and Strategy"
+                    title="Shaping a Website To Support Service & Strategy"
                     brand="Symphony3"
                     subtitle="UX Strategy • UI Design • Frontend Dev"
                     link="/case-studies/symphony3-website-redesign"
@@ -54,19 +54,6 @@ export default function Portfolio() {
                     image="/case-studies/symphony3/symphony3-redesign-website-mockup.jpg"
                     imageSquare="/case-studies/symphony3/symphony3-redesign-website-mockup-square.jpg"
                     imageAlt="Symphony3: Shaping a Website That Supports Service and Strategy"
-                    imageWidth={800}
-                    imageHeight={450}
-                ></Card>
-                <Card
-                    title="Enabling Faster Builds Through a White Label Design System"
-                    brand="Symphony3"
-                    subtitle="UX Strategy • UI Design • Frontend Dev"
-                    link="/case-studies/symphony3-white-label"
-                    linkTitle="View Symphony3 case study"
-                    linkText="View case study"
-                    image="/case-studies/symphony3/symphony3-white-label-website-mockup.jpg"
-                    imageSquare="/case-studies/symphony3/symphony3-white-label-website-mockup-square.jpg"
-                    imageAlt="Symphony3: Enabling Faster Builds Through a White Label Design System"
                     imageWidth={800}
                     imageHeight={450}
                 ></Card>
@@ -97,7 +84,7 @@ export default function Portfolio() {
                     imageHeight={450}
                 ></Card>
                 <Card
-                    title="Improving Returns to Support a Customer‑First Approach"
+                    title="Improving Returns & Putting Customers First"
                     brand="Birdsnest"
                     subtitle="UX Research • UX & UI Design • Journey Optimisation"
                     link="/case-studies/birdsnest-online-return-process"
@@ -106,6 +93,19 @@ export default function Portfolio() {
                     image="/case-studies/birdsnest/birdsnest-returns-process-mockup.jpg"
                     imageSquare="/case-studies/birdsnest/birdsnest-returns-process-mockup-square.jpg"
                     imageAlt="Birdsnest: Improving Returns to Support a Customer‑First Approach"
+                    imageWidth={800}
+                    imageHeight={450}
+                ></Card>
+                <Card
+                    title="Enabling Faster Builds Through a White Label Design System"
+                    brand="Symphony3"
+                    subtitle="UX Strategy • UI Design • Frontend Dev"
+                    link="/case-studies/symphony3-white-label"
+                    linkTitle="View Symphony3 case study"
+                    linkText="View case study"
+                    image="/case-studies/symphony3/symphony3-white-label-website-mockup.jpg"
+                    imageSquare="/case-studies/symphony3/symphony3-white-label-website-mockup-square.jpg"
+                    imageAlt="Symphony3: Enabling Faster Builds Through a White Label Design System"
                     imageWidth={800}
                     imageHeight={450}
                 ></Card>
@@ -118,7 +118,8 @@ export default function Portfolio() {
                 bgAlt={false}
             >
                 <Card
-                    title="Cow & Coconut: Connection through content"
+                    title="Connection through content"
+                    brand="Cow & Coconut"
                     subtitle="Lead magnet design • Editorial layout • 2024"
                     description="A gentle lead generator designed with purpose—blending mindful content and warm visual storytelling."
                     image="/case-studies/cow-and-coconut/candc-winter-eco-guide-mockup.jpg"
@@ -132,7 +133,8 @@ export default function Portfolio() {
                     linkTarget="_blank"
                 ></Card>
                 <Card
-                    title="Golden Plains: Simplifying Services for a Regional Council"
+                    title="Simplifying Services for a Regional Council"
+                    brand="Golden Plains"
                     subtitle="Frontend • Drupal website build • 2021"
                     description="Local council website to connect multiple systems and improve UX for users."
                     image="/case-studies/symphony3/golden-plains-website-mockup.jpg"
@@ -146,7 +148,8 @@ export default function Portfolio() {
                     linkTarget="_blank"
                 ></Card>
                 <Card
-                    title="Geofabrics: Engineering a Better Experience"
+                    title="Engineering a Better Experience"
+                    brand="Geofabrics"
                     subtitle="Frontend • Drupal website build • 2021"
                     description="Manufacturing industry website showcasing services and materials, as well as professional education."
                     image="/case-studies/symphony3/geofabrics-website-mockup.jpg"
@@ -160,7 +163,8 @@ export default function Portfolio() {
                     linkTarget="_blank"
                 ></Card>
                 <Card
-                    title="Paintback: Giving Paint a Second Life"
+                    title="Giving Paint a Second Life"
+                    brand="Paintback"
                     subtitle="Frontend • Drupal website build • 2020"
                     description="Charity website providing paint recycling services, as well as education and awareness."
                     image="/case-studies/symphony3/symphony3-white-label-website-mockup.jpg"
@@ -174,7 +178,8 @@ export default function Portfolio() {
                     linkTarget="_blank"
                 ></Card>
                 <Card
-                    title="Puddleduck Crossing: A Playful Brand for Crochet Toys"
+                    title="A Playful Brand for Crochet Toys"
+                    brand="Puddleduck Crossing"
                     subtitle="Logo Design • Brand identity • 2020"
                     description="A cosy, handcrafted logo for a small business bringing joy through crochet toys and keepsakes."
                     image="/case-studies/puddleduck-crossing/puddleduck-crossing-logo.jpg"
@@ -184,7 +189,8 @@ export default function Portfolio() {
                     imageHeight={450}
                 ></Card>
                 <Card
-                    title="Digital Snow: Branding for a Boutique Ecomm Agency"
+                    title="Branding for a Boutique Ecomm Agency"
+                    brand="Digital Snow"
                     subtitle="Logo Design • Brand identity • 2019"
                     description="A refined brandmark developed for a small agency focused on digital strategy and online retail."
                     image="/case-studies/digital-snow/digital-snow-logo-mockup.jpg"

@@ -4,6 +4,7 @@ import {Card} from "@/app/components/Cards/Card";
 import {Cards} from "@/app/components/Cards/Cards";
 import React from "react";
 import {KeyPoints} from "@/app/components/CaseStudies/KeyPoints";
+import {Image} from "@/app/components/Image/Image";
 
 export const metadata: Metadata = {
     title: 'Cow & Coconut: Building a Brand with Purpose | Ashlie Webb Designs',
@@ -138,6 +139,22 @@ cottage</span></a></li>
                     Most importantly, the experience has helped build trust with the audience—not through big claims or flashy campaigns, but through consistent, intentional communication and thoughtful design.
                 </p>
             </section>
+
+            <Image
+                image="/case-studies/cow-and-coconut/candc-pos-idle-screen.jpg"
+                imageSquare="/case-studies/cow-and-coconut/candc-pos-idle-screen.jpg"
+                imageAlt="Cow & Coconut POS Idle Screen"
+                caption="POS Idle Screen branded for in-store experience"
+            >
+            </Image>
+            <Image
+                image="/case-studies/cow-and-coconut/candc-winter-eco-guide-mockup.jpg"
+                imageSquare="/case-studies/cow-and-coconut/candc-winter-eco-guide-mockup-square.jpg"
+                imageAlt="Cow & Coconut POS Idle Screen"
+                caption="Winter Eco Living Guide – Lead Generator"
+            >
+            </Image>
+
             <section className="section">
                 <h2 className="heading heading2">Reflections</h2>
                 <p>Cow & Coconut has been as much a personal journey as it has been a business project. It has given me the opportunity to apply my UX, design, and development skills in a truly holistic way—connecting strategy, execution, and operations all under one roof.</p>

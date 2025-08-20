@@ -36,12 +36,12 @@ export const Card = ({icon, image, imageSquare, imageAlt, imageWidth, imageHeigh
                         {icon && (
                             <span className={`material-symbols-outlined ${styles.cardIcon}`}>{icon}</span>
                         )}
-                        <h3>{title}</h3>
+                        {title && <h3 dangerouslySetInnerHTML={{ __html: title }}></h3>}
                         {brand && <p className='card__brand'>{brand}</p>}
                         {subtitle && <strong className='introtext' dangerouslySetInnerHTML={{ __html: subtitle }}></strong>}
                         {description && <p className='card__desc'>{description}</p>}
                         {descriptionHTML && <div className='card__desc' dangerouslySetInnerHTML={{ __html: descriptionHTML }}></div>}
-                        {linkText && <p className="buttonText">{linkText}</p>}
+                        {linkText && <p><span className="buttonText">{linkText}</span></p>}
                     </div>
                 </Link>
             ) : (
