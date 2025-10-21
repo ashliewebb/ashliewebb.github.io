@@ -71,7 +71,7 @@ export default function RootLayout({
         <ImageText
             image="/profile-photo.jpg"
             imageAlt="Ashlie Webb | Product Designer • UX & UI • Designs Systems"
-            copy="<h2 class='heading heading2'>About Ashlie</h2><p>Product designer with a background in UX, UI, and front-end development. Designs with empathy, builds with clarity, and focuses on what works—for users, and for the teams behind the scenes.</p><p><a href='/about' class='buttonText'>More about Ashlie</a>">
+            copy="<h2 class='heading heading2'>About Ashlie</h2><p>UX-led product designer with a marketing mindset. Creates intuitive, purpose-driven experiences that engage users, strengthen brand presence, and simplify life for the teams behind the product.</p><p><a href='/about' class='buttonText'>More about Ashlie</a>">
         </ImageText>
         <div className={styles.footerContent}>
           <Link href="/contact" className="buttonPrimary">Work With Me</Link>
