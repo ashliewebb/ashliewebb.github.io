@@ -22,7 +22,7 @@ cottage</span></a></li>
                     <li><a href='/portfolio'>Portfolio</a></li>
                     <li>Case Study</li>
                     </ul>"
-                description="<p>Bringing together design, development, and operations to create a thoughtful, feel-good brand experience.</p>"
+                description="<p>Combining design thinking and marketing insight to craft intuitive, feel-good brand experiences that build trust and engagement.</p>"
                 imageUrl="/case-studies/cow-and-coconut/mockup-laptop-mobile-cow-and-coconut.png"
                 imageAlt="Cow & Coconut"
                 imageWidth={400}
@@ -36,7 +36,7 @@ cottage</span></a></li>
                 timeline="2019 – Ongoing"
                 tools="Shopify, Klaviyo, Figma, Photoshop"
                 users="Eco-conscious shoppers, gift buyers, local customers"
-                responsibilities="Brand identity, UX/UI design, web development, marketing, operations"
+                responsibilities="Brand identity, UX/UI design, marketing, web development, operations"
             >
             </KeyPoints>
             <Cards
@@ -58,7 +58,7 @@ cottage</span></a></li>
                 ></Card>
                 <Card
                     title="Conversion-focused Shopify website"
-                    description="Designed and developed a conversion-focused Shopify website,balancing education, product discovery, and ease of use."
+                    description="Designed and developed a conversion-focused Shopify website, balancing education, product discovery, and ease of use."
                     icon="storefront"
                 ></Card>
                 <Card
@@ -80,7 +80,7 @@ cottage</span></a></li>
             <section className="section case-study-summary">
                 <h2 className="heading heading2">Project summary</h2>
                 <p>Cow & Coconut was born from a simple but powerful idea: that the things we use every day—on our skin, in our homes, and with our families—shouldn’t harm the planet or our bodies. The vision was to create an eco-conscious brand that felt approachable, honest, and enjoyable to engage with, while offering products that support intentional living.</p>
-                <p>As the founder, I took on every aspect of building Cow & Coconut from the ground up: brand identity, website design and development, product curation, marketing, and day-to-day operations. Without the luxury of a large team or budget, I relied on a mix of UX and design best practices, personal insight, and a clear sense of the values I wanted the brand to represent.</p>
+                <p>As the founder, I took on every aspect of building Cow & Coconut from the ground up: brand identity, marketing, website design and development, product curation, and day-to-day operations. Without the luxury of a large team or budget, I relied on a mix of UX and design best practices, personal insight, and a clear sense of the values I wanted the brand to represent.</p>
                 <p>This project brought together my skills in UX, frontend development, e-commerce strategy, and content design—woven together by purpose.</p>
             </section>
 
@@ -122,6 +122,18 @@ cottage</span></a></li>
                     <li>Handling <strong>customer communication directly</strong>, bringing a human voice to every interaction</li>
                     <li>Continuously reviewing and iterating on product offerings, content, and marketing based on personal insights and customer feedback</li>
                 </ul>
+            </section>
+            <section className="section">
+                <h2 className="heading heading2">Digital Marketing & Engagement Strategy</h2>
+                <p>Beyond designing Cow & Coconut&#39;s brand identity, I developed a digital engagement strategy focused on visibility, education, and community trust.</p>
+                <p>This included:</p>
+                <ul>
+                    <li><strong>SEO optimisation</strong> through long-form blog articles and structured metadata, boosting organic discovery.</li>
+                    <li><strong>Email campaigns</strong> in Klaviyo, structured around educational campaigns ("Winter Eco Living Guide", "Ritual Reset for Winter Skin"), plus brand stories, back in stock and sales campaigns, all with an average open rate of 33%.</li>
+                    <li><strong>Social content planning</strong> across Instagram and Facebook, integrating lifestyle imagery, local community features, and behind-the-scenes storytelling.</li>
+                    <li><strong>Content scheduling</strong> and <strong>analytics tracking</strong> using Meta Business Suite and Shopify insights to monitor conversion behaviour, referral traffic, and seasonal trends.</li>
+                </ul>
+                <p>This approach strengthened audience loyalty, enhanced online visibility, and positioned Cow & Coconut as a trusted voice in sustainable living. By weaving storytelling-driven content and community partnerships into the broader strategy, the brand built an authentic connection with its audience — creating a blueprint for a data-informed, values-driven marketing strategy.</p>
             </section>
 
             <section className="section case-study-design">

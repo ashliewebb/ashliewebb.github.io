@@ -7,9 +7,9 @@ export default function Home() {
   return (
       <>
           <HeroBanner
-              introtext="Product Designer • UX & UI • Design Systems"
-              title="Human-first digital products designed with intention"
-              description="<p>From research and wireframes to polished interfaces, Ashlie Webb brings a calm, methodical approach to digital product design. Her background spans UX, UI, and front-end development—shaping user experiences that are clear, human, and ready to scale.</p><p>With 15+ years in e-commerce, digital platforms, and independent business, she designs with both empathy and practicality. The focus is always the same: useful products that feel good to use—and simple for teams to maintain.</p>"
+              introtext="Product Design • UX Strategy • Content & Engagement"
+              title="Design that connects — thoughtful digital experiences built for people and performance"
+              description="<p>Ashlie Webb combines user-centred design with marketing strategy to craft clear, engaging experiences that build trust and drive results. Her process bridges insight, design, and storytelling — ensuring every interaction supports both the user’s needs and the brand’s goals.</p><p>With over 15 years in digital platforms and e-commerce, she brings a grounded, empathetic approach to design. The outcome is always the same: purposeful products that feel good to use and help brands grow with integrity.</p>"
               imageUrl="/illustration-website-design.svg"
               imageAlt="What is a designer illustration"
               imageWidth={400}
