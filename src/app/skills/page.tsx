@@ -13,7 +13,7 @@ export default function Skills() {
     return (
         <>
             <HeroBanner
-                introtext="Product Designer • UX & UI • Design Systems"
+                introtext="Product Design • UX/UI • Content & Engagement"
                 title="A practical mix of product thinking, design systems, and user-first strategy"
                 imageUrl="/illustration-website-content.svg"
                 imageAlt="Web Designer designing layout"

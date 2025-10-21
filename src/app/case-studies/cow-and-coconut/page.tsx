@@ -125,11 +125,11 @@ cottage</span></a></li>
             </section>
             <section className="section">
                 <h2 className="heading heading2">Digital Marketing & Engagement Strategy</h2>
-                <p>Beyond designing Cow & Coconut&#39;s brand identity, I developed a digital engagement strategy focused on visibility, education, and community trust.</p>
+                <p>Beyond designing Cow & Coconut&rsquo;s brand identity, I developed a digital engagement strategy focused on visibility, education, and community trust.</p>
                 <p>This included:</p>
                 <ul>
                     <li><strong>SEO optimisation</strong> through long-form blog articles and structured metadata, boosting organic discovery.</li>
-                    <li><strong>Email campaigns</strong> in Klaviyo, structured around educational campaigns ("Winter Eco Living Guide", "Ritual Reset for Winter Skin"), plus brand stories, back in stock and sales campaigns, all with an average open rate of 33%.</li>
+                    <li><strong>Email campaigns</strong> in Klaviyo, structured around educational campaigns (&ldquo;Winter Eco Living Guide&rdquo;, &ldquo;Ritual Reset for Winter Skin&rdquo;), plus brand stories, back in stock and sales campaigns, all with an average open rate of 33%.</li>
                     <li><strong>Social content planning</strong> across Instagram and Facebook, integrating lifestyle imagery, local community features, and behind-the-scenes storytelling.</li>
                     <li><strong>Content scheduling</strong> and <strong>analytics tracking</strong> using Meta Business Suite and Shopify insights to monitor conversion behaviour, referral traffic, and seasonal trends.</li>
                 </ul>

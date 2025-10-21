@@ -7,7 +7,7 @@ export default function Home() {
   return (
       <>
           <HeroBanner
-              introtext="Product Design • UX Strategy • Content & Engagement"
+              introtext="Product Design • UX/UI • Content & Engagement"
               title="Design that connects — thoughtful digital experiences built for people and performance"
               description="<p>Ashlie Webb combines user-centred design with marketing strategy to craft clear, engaging experiences that build trust and drive results. Her process bridges insight, design, and storytelling — ensuring every interaction supports both the user’s needs and the brand’s goals.</p><p>With over 15 years in digital platforms and e-commerce, she brings a grounded, empathetic approach to design. The outcome is always the same: purposeful products that feel good to use and help brands grow with integrity.</p>"
               imageUrl="/illustration-website-design.svg"
